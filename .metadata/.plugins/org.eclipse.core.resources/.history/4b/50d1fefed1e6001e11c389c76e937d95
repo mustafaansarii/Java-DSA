@@ -1,0 +1,32 @@
+package helloaworld;
+
+import java.util.Scanner;
+
+public class StudentMarks {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user to input student marks
+        System.out.println("Enter student marks: ");
+        int marks = scanner.nextInt();
+
+        // Evaluate the student marks based on conditions
+        if (marks >= 90) {
+            System.out.println("Grade: A+");
+        } else if (marks >= 80) {
+            System.out.println("Grade: A");
+        } else if (marks >= 70) {
+            System.out.println("Grade: B");
+        } else if (marks >= 60) {
+            System.out.println("Grade: C");
+        } else if (marks >= 50) {
+            System.out.println("Grade: D");
+        } else {
+            System.out.println("Grade: F");
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+}

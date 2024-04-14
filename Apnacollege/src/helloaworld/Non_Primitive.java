@@ -1,0 +1,11 @@
+package helloaworld;
+
+public class Non_Primitive {
+	public static void main(String[] args) {
+		String name="mustafa";
+		System.out.println(name);
+		System.out.println("length " + name.length());
+		
+	}
+
+}

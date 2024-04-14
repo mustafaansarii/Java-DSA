@@ -1,0 +1,16 @@
+package helloaworld;
+
+import javax.sound.midi.Soundbank;
+
+public class string {
+	public static void main(String[] args) {
+		//Concatenate String
+		
+		String name1= "Aman";
+		String name2= "shiv";
+		String name3= name1+name2;
+		System.out.println(name3);
+		
+	}
+
+}

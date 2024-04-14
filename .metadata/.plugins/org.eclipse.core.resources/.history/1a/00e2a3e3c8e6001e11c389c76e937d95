@@ -1,0 +1,18 @@
+package helloaworld;
+
+
+
+public class string {
+	public static void main(String[] args) {
+		//Concatenate String
+		
+		String name1= "Aman";
+		String name2= "shiv";
+		String name3= name1 +" And "+ name2;
+		System.out.println(name3);
+		
+		System.out.println(name1.charAt(1));
+		
+	}
+
+}

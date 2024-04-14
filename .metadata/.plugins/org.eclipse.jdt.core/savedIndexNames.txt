@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/mustafa/Learning/Java/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3898341475.index
+1336501054.index
