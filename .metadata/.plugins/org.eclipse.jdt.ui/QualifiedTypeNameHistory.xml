@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="int"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.nio.channels.InterruptedByTimeoutException"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction"/>
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+    <fullyQualifiedTypeName name="helloaworld.string"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="int"/>
 </qualifiedTypeNameHistroy>
