@@ -1,2 +1,20 @@
-package advance_pattern;public class solid_rhombus {
+package advance_pattern;
+
+public class solid_rhombus {
+    public static void rhumbus(int n){
+        for (int i=1; i<=n; i++){
+             for (int j=n; j>=i; j--){
+                System.out.print(" ");
+            }
+            for (int j=1; j<=n; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+    }
+
+    public static void main(String[] args) {
+        rhumbus(5);
+    }
 }

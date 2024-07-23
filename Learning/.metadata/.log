@@ -831,3 +831,69 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-15 10:22:00.995
 !MESSAGE Classpath changed for project: myweb
+!SESSION 2024-07-19 12:36:35.264 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-19 12:36:37.958
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-19 12:36:41.673
+!MESSAGE Logback config file: /home/mustafa/Learning/Java/Learning/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-19 12:36:41.994
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-19 12:36:41.994
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-19 12:36:42.258
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-19 12:36:42.258
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-19 12:36:44.849
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/sts/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/opt/sts/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/opt/sts/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/mustafa/Learning/Java/Learning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721372804849
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-19 12:36:44.850
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-19 12:36:44.852
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 43385
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-19 12:36:45.379
+!MESSAGE Boot project ADDED: myweb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-19 12:36:45.380
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-19 12:36:45.382
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-19 12:38:19.664
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
