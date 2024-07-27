@@ -1,7 +1,5 @@
 package Function;
 
-import com.sun.source.tree.BreakTree;
-
 public class dec_to_binary {
     public static int decimal_to_binary(int n){
         int bin=0;
@@ -14,6 +12,6 @@ public class dec_to_binary {
         return bin;
     }
     public static void main(String[] args) {
-        System.out.println(decimal_to_binary(4));
+        System.out.println(decimal_to_binary(5));
     }
 }
