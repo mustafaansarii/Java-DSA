@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class string_builder {
+public class string_builder {
+    public static void main(String[] args) {
+        
+    }
 }
